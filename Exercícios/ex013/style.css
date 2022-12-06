@@ -1,0 +1,16 @@
+@charset "UTF-8";
+h1{
+    color: #999;
+    
+}
+h2{
+    color: #999;
+}
+p{
+    color: #bf4;
+    text-align: justify;
+}
+body{
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
