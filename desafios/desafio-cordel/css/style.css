@@ -53,12 +53,12 @@ section > p {
 .paragrafo-normal {
 }
 .paragrafo-imagem{
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.676);
+    box-shadow: inset 6px 6px 13px 0px #000000ac;
     background-attachment: fixed;
     background-position: right center;
     background-size: cover;
     color: white;
-  background-color: rgba(23, 23, 23, 0.568);
+  background-color: #17171791;
   background-image: url(../imagens/background001.jpg);
 }
 
@@ -95,3 +95,4 @@ section > p {
     }
 
 }
+ 
