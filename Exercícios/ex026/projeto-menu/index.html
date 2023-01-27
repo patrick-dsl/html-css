@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu responsivo</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilos/style.css" />
+  </head>
+  <body onresize="mudouTamanho()">
+    <header>
+      <h1>Menu responsivo</h1>
+      <span id="burguer" class="material-icons" onclick="clickMenu()"
+        >menu</span
+      >
+      <menu id="menu">
+        <ul>
+          <li><a class="link" href="#">Opção 1</a></li>
+          <li><a class="link" href="#">Opção 2</a></li>
+          <li><a class="link" href="#">Opção 3</a></li>
+          <li><a class="link" href="#">Opção 4</a></li>
+          <li><a class="link" href="#">Opção 5</a></li>
+          <li><a class="link" href="#">Opção 6</a></li>
+        </ul>
+      </menu>
+    </header>
+    <main>
+      <article>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo
+          expedita hic fugit, voluptate autem eligendi, illum ex ipsam quibusdam
+          mollitia odit. Sequi enim at rem illo. Quaerat, quis sit! Lorem ipsum
+          dolor sit amet. Lorem ipsum dolor sit amet consectetur, adipisicing
+          elit. Dolorum ullam veritatis distinctio sit praesentium natus, nemo
+          error dolores. Eveniet, quasi, repudiandae cupiditate odit suscipit
+          error sequi inventore ipsa eaque quia enim doloremque quibusdam cumque
+          nisi modi nulla maiores sapiente veniam ab repellendus quaerat!
+          Praesentium recusandae tempora temporibus inventore excepturi ipsum
+          accusantium sint quae, ratione atque adipisci dicta laudantium
+          dignissimos alias repellat nulla fugiat. Adipisci officiis distinctio
+          necessitatibus velit culpa quis, nihil incidunt nisi nesciunt sunt
+          veniam asperiores impedit eveniet quos nostrum error harum. Nobis
+          aliquam sapiente consectetur esse? Assumenda neque dolorem excepturi
+          cum quis tempora, nam ratione fugiat quisquam id.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+          blanditiis perspiciatis doloribus eum quod labore nam aut, voluptatem
+          facere? Neque dolores cupiditate, quibusdam vero expedita dolore
+          incidunt deleniti dolor ullam soluta. Eum voluptate consectetur sed
+          maxime quasi? Aperiam maxime provident perferendis cupiditate rerum
+          nesciunt ipsum praesentium animi. Beatae, adipisci eos! Perspiciatis
+          consequuntur alias, quam dolor mollitia omnis ab accusamus voluptates
+          modi harum illum ipsam. Labore quidem sint accusamus commodi neque
+          aliquam nulla. Animi, ad facere aspernatur cumque cupiditate in
+          laborum, culpa pariatur sapiente quis ipsa consequatur corrupti,
+          quisquam aliquid illum tempora? Quos, ex nihil, impedit autem eos
+          totam illum molestias magnam nulla dolorum vero tenetur soluta, dolore
+          ratione accusantium nobis culpa ipsa. Laudantium doloribus consectetur
+          magnam odit nihil maxime omnis? Ipsum maiores provident corporis.
+        </p>
+      </article>
+    </main>
+    <script>
+      function mudouTamanho() {
+        if (window.innerWidth >= 992) {
+          menu.style.display = "block";
+        } else {
+          menu.style.display = "none";
+        }
+      }
+      function clickMenu() {
+        if (menu.style.display == "block") {
+          menu.style.display = "none";
+        } else {
+          menu.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
